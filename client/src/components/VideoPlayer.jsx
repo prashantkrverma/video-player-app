@@ -51,7 +51,7 @@ const VideoPlayer = ({ data, ...props }) => {
                     </Tooltip>
                 }
             >
-                <Button size="sm" variant="danger" className="float-right my-2" onClick={() => setDeleteDialog(true)}>Remove</Button>
+                <Button size="sm" variant="danger" className="float-right my-2" onClick={() => setDeleteDialog(true)} disabled={data ? false : true}>Remove</Button>
             </OverlayTrigger>
             <Dialog
                 show={deleteDialog}

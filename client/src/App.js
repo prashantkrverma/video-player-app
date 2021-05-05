@@ -50,7 +50,7 @@ useEffect(()=>{
           <VideoPlayer data={currentVideo} fetchList={fetchList} />
         </Col>
         <Col xs={12} sm={12} md={12} lg={4} className="">
-          <Playlist alert={alert} loading={loading} current={currentVideo._id} fetchList={fetchList} playlist={playlist} handleCurrentVideo={(data) => handleCurrentVideo(data)}/>
+          <Playlist alert={alert} loading={loading} current={currentVideo && currentVideo._id} fetchList={fetchList} playlist={playlist} handleCurrentVideo={(data) => handleCurrentVideo(data)}/>
         </Col>
       </Row>
     </div>
