@@ -1,0 +1,18 @@
+{
+  "name": "video-player-server",
+  "version": "1.0.0",
+  "description": "This is server of video player appp.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prashant Kumar Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "multer": "^1.4.2"
+  }
+}

@@ -1,0 +1,11 @@
+body {
+  background: #F8F8FF;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.max-height-50{
+  max-height: 50%;
+}
